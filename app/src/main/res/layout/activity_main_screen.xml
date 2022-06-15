@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/backimage"
+    tools:context=".MainScreen">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#2196F3"
+        android:onClick="selectgame"
+        android:text="Sliding Puzzle"
+        app:backgroundTint="#DA4F0E" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#510707"
+        android:onClick="crosspuzzle"
+        android:text="Tic tac toe"
+        app:backgroundTint="#DA4F0E" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#510707"
+        android:onClick="rateAs"
+        android:text="About us"
+        app:backgroundTint="#DA4F0E" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#510707"
+        android:onClick="closeApplication"
+        android:text="Exit"
+        app:backgroundTint="#DA4F0E" />
+
+</LinearLayout>
